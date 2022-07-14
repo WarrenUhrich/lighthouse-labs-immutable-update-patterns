@@ -1,5 +1,6 @@
 import HelloWorld from "./components/HelloWorld";
 import Counter from "./components/Counter";
+import Pizza from "./components/Pizza";
 
 const App = () => {
   // HelloWorld({name: 'Harwinder'});
@@ -9,6 +10,7 @@ const App = () => {
       <HelloWorld name="Jaeden" />
       <HelloWorld name="Sneha" />
       <Counter />
+      <Pizza />
     </main>
   );
 }
