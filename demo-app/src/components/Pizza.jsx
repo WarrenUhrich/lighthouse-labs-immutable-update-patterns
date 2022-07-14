@@ -16,7 +16,16 @@ const Pizza = () => {
                 newTopping
             ];
         });
+        setNewTopping('');
     };
+
+    const mappedToppings = toppings.map((topping, index) => {
+        return (
+            <li key={index}>
+                {topping}
+            </li>
+        );
+    });
 
     return (
         <section>
@@ -27,6 +36,10 @@ const Pizza = () => {
                 value={newTopping}
                 onChange={updateNewTopping} />
             <button onClick={addTopping}>Add Topping</button>
+            <h3>Your Toppings:</h3>
+            <ul>
+                {mappedToppings}
+            </ul>
         </section>
     );
 };
