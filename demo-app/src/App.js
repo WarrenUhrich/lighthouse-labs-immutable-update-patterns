@@ -1,6 +1,7 @@
 import HelloWorld from "./components/HelloWorld";
 import Counter from "./components/Counter";
 import Pizza from "./components/Pizza";
+import Pizza2 from "./components/Pizza2";
 
 const App = () => {
   // HelloWorld({name: 'Harwinder'});
@@ -11,6 +12,7 @@ const App = () => {
       <HelloWorld name="Sneha" />
       <Counter />
       <Pizza />
+      <Pizza2 />
     </main>
   );
 }
