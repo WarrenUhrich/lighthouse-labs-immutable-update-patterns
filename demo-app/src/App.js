@@ -1,6 +1,13 @@
+import HelloWorld from "./components/HelloWorld";
+
 const App = () => {
+  // HelloWorld({name: 'Harwinder'});
   return (
-    <p>Hello, World!</p>
+    <main>
+      <HelloWorld name="Harwinder" />
+      <HelloWorld name="Jaeden" />
+      <HelloWorld name="Sneha" />
+    </main>
   );
 }
 
