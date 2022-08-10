@@ -2,6 +2,7 @@ import { useState } from 'react';
 
 const Pizza = () => {
     const [toppings, setToppings] = useState(['cheese']);
+    const [crust, setCrust] = useState('stuffed');
     const [newTopping, setNewTopping] = useState('');
 
     const addTopping = () => {
@@ -29,6 +30,13 @@ const Pizza = () => {
             <button onClick={addTopping}>Add Topping</button>
             <h3>Your Toppings:</h3>
             <ul>{toppingsListItems}</ul>
+            <h3>Your Crust is: {crust}</h3>
+            <label htmlFor="new-crust">Please enter your desired crust:</label>
+            <input
+                id="new-crust"
+                type="text"
+                value={crust}
+                onChange={(event) => {setCrust(event.target.value);}} />
         </>
     );
 };
