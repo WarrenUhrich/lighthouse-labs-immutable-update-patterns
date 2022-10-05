@@ -51,4 +51,11 @@ console.log('obj1:', obj1);
 console.log('obj2:', obj2);
 console.log('obj3:', obj3);
 
+// Comparing Arrays
 
+console.log('array with same contents:', [1, 2, 3] === [1, 2, 3]);
+
+const myArr1 = [1, 2, 3];
+const myArr2 = myArr1;
+
+console.log('compare the same pointer', myArr1 === myArr2);
