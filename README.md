@@ -1,6 +1,6 @@
 # Lighthouse Labs | Immutable Update Patterns
 
-[GitHub Repository Branch](https://github.com/WarrenUhrich/lighthouse-labs-immutable-update-patterns/tree/2023.02.23-web-flex-day-17oct2022) | [Vimeo Video Recording(Coming Soon!)](#coming-soon)
+[GitHub Repository Branch](https://github.com/WarrenUhrich/lighthouse-labs-immutable-update-patterns/tree/2023.02.23-web-flex-day-17oct2022) | [Vimeo Video Recording](https://vimeo.com/801756465/0a86f341e7)
 
 * [X] Mutability vs. Immutability in JavaScript
 * [X] React Review
