@@ -3,7 +3,7 @@ export default function BadCounter() {
 
     return (
         <section>
-            <h2>Counter Component</h2>
+            <h2>BAD Counter Component</h2>
             <p>Counter has been clicked {count} times.</p>
             <button onClick={() => console.log(count++)}>
                 Click to Increment

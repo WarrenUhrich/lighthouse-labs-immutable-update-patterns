@@ -23,5 +23,6 @@ root.render(
     <SayHello />
     <SayHello {...sayHelloProps} /> {/* SayHello({name: 'Michael'}) */}
     <Counter />
+    <BadCounter />
   </React.StrictMode>
 );
